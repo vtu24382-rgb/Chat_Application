@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Chat Application</title>
+    <link rel="stylesheet" href="chat.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="user-profile">
+                <div class="avatar" id="userAvatar"></div>
+                <div class="user-info">
+                    <h3 id="usernameDisplay">Loading...</h3>
+                    <span class="status online">Online</span>
+                </div>
+                <button class="logout-btn" id="logoutBtn">Logout</button>
+            </div>
+            
+            <div class="search-box">
+                <input type="text" id="searchUsers" placeholder="Search users...">
+            </div>
+            
+            <div class="users-list" id="usersList">
+                <div class="loading">Loading users...</div>
+            </div>
+        </div>
+        
+        <!-- Chat Area -->
+        <div class="chat-area">
+            <div class="chat-header" id="chatHeader">
+                <h2 id="selectedUserName">Select a user to start chatting</h2>
+            </div>
+            
+            <div class="messages-container" id="messagesContainer">
+                <div class="messages" id="messages"></div>
+            </div>
+            
+            <div class="message-input-container">
+                <form id="messageForm">
+                    <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off" disabled>
+                    <button type="submit" id="sendBtn" disabled>Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
