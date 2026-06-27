@@ -70,3 +70,11 @@ A modern, real-time chat application built with Spring Boot and WebSocket techno
 - **MySQL Workbench** - Database management
 
 ## 🏗️ Architecture
+
+
+## Screenshots
+<img width="958" height="505" alt="image" src="https://github.com/user-attachments/assets/7760d82b-8b76-44dc-a13e-8ed75a8c6c4c" />
+
+<img width="959" height="510" alt="Screenshot 2026-06-27 232722" src="https://github.com/user-attachments/assets/94802cab-8314-4a2c-8be1-d681b22a8cd8" />
+
+
