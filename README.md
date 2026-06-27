@@ -77,4 +77,13 @@ A modern, real-time chat application built with Spring Boot and WebSocket techno
 
 <img width="959" height="510" alt="Screenshot 2026-06-27 232722" src="https://github.com/user-attachments/assets/94802cab-8314-4a2c-8be1-d681b22a8cd8" />
 
+<img width="959" height="504" alt="Screenshot 2026-06-27 232750" src="https://github.com/user-attachments/assets/cfd94535-4c7c-4265-a925-d9267c498137" />
+
+<img width="254" height="328" alt="Screenshot 2026-06-27 233132" src="https://github.com/user-attachments/assets/b88e764e-baee-4b35-bb6d-bd9565493545" />
+
+<img width="258" height="297" alt="Screenshot 2026-06-27 233153" src="https://github.com/user-attachments/assets/2b0b319b-fd1f-4b43-b910-f17509c9641c" />
+
+
+
+
 
